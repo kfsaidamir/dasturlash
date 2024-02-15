@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613514522_50-p-foni-dlya-prezentatsii-kompyuternaya-tema-59.jpg);
+    background-attachment: fixed;
+}
+
+section {
+    width: 100%;
+    height: 140vh;
+}
+
+.filter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+h1 {
+    font-weight: 400;
+    color: #010101;
+    background-color: rgba(255, 255, 255, 0.650);
+    text-align: center;
+    padding: 10px;
+    filter: brightness(190%);
+    font-size: 50px;
+}
+
+.main {
+    width: 40%;
+    display: flex;
+    margin: 50px auto;
+    align-items: center;    
+}
+
+.main > i:nth-child(1) {
+    color: orangered;
+}
+
+.main > i {
+    margin: 0 auto;
+    margin-left: 30px;
+    padding: 5px 10px ;
+    background-color: rgb(225, 225, 225, 0.384);
+    border-radius:10px;
+    font-size: 80px;
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.main > i:hover {
+    transform: scale(0.9);
+}
+
+.main > i:nth-child(2) {
+    color: rgb(35, 35, 245);
+}
+ 
+.main > i:nth-child(3) {
+    color: yellow;
+}
+
+.main > i:nth-child(4) {
+    color: rgb(36, 36, 189);
+}
+
+
+/*@keyframes animate  {
+    0% {
+        transform:rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}*/
+
+p {
+    margin:40px auto;
+    color: white;
+    width: 50%;
+    font-size: 25px;
+    line-height: 50px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.650);
+}
+
+.codes {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cod {
+    width: 400px;
+}
+
+.cod > img {
+    transition: 0.7s ease;
+    width: 300px;
+    height: 30vh;
+}
+
+.cod > img:hover {
+    transform: scale(1.5);
+}
